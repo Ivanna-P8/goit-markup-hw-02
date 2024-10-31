@@ -18,8 +18,7 @@ a {
 .header {
   background: #ffffff;
 }
-.header-nav {
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -32,10 +31,7 @@ a {
 .header-logo .header-logo-studio {
   color: #2e2f42;
 }
-.nav-list {
-}
-.nav-item {
-}
+
 .nav-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -55,8 +51,7 @@ a {
 .header-address {
   font-style: normal;
 }
-.address-list {
-}
+
 .address-link {
   font-size: 16px;
   line-height: 1.5;
@@ -67,8 +62,7 @@ a {
 /* #endregion header*/
 
 /* #region main */
-.main {
-}
+
 /* #region section one */
 .section-one {
   background-color: #2e2f42;
@@ -77,12 +71,13 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
+  cursor: pointer
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -91,17 +86,15 @@ a {
   color: #fff;
   background-color: #4d5ae5;
 }
+
+.switcher:focus,
+.switcher:hover {
+  background-color: #404bbf;
+}
 /* #endregion section one */
 
 /* #region section Advantages */
-.section-advantages {
-}
-.advantages-title {
-}
-.advantages-list {
-}
-.advantages-item {
-}
+
 .advantages-subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -126,20 +119,20 @@ a {
 }
 .team-title,
 .portfolio-title {
+  text-transform: capitalize
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
-.team-list {
-}
+
 .team-item {
+  background-color: #FFFFFF
 }
-.team-img {
-}
+
 .team-img-subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -161,14 +154,6 @@ a {
 /* #endregion section Our Team */
 
 /* #region section Our Portfolio */
-.section-portfolio {
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-img {
-}
 .portfolio-img-subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
